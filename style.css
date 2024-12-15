@@ -1,0 +1,65 @@
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray500: hsl(0, 0%, 42%);
+  --gray950: hsl(0, 0%, 7%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+}
+
+.blog-card-wrapper {
+  background-color: var(--white);
+  margin: auto 20px;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 30px;
+  align-items: flex-start;
+  box-shadow: 9px 10px 21px rgb(0 0 0 / 50%);
+}
+
+.learning-p {
+  padding: 5px 15px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: var(--yellow);
+}
+
+h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.content {
+  color: var(--gray500);
+}
